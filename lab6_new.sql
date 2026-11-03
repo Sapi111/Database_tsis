@@ -191,7 +191,7 @@ SELECT e.emp_name AS employee,
 FROM employees e
 LEFT JOIN employees m ON e.manager_id = m.emp_id;
 
--- Exercise 8.3: Average salary by departmen
+-- Exercise 8.3: Average salary by department
 SELECT d.dept_name, AVG(e.salary) AS avg_salary
 FROM departments d
 INNER JOIN employees e ON d.dept_id = e.dept_id
