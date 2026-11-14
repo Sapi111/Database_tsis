@@ -7,7 +7,7 @@ FROM information_schema.columns
 WHERE table_schema = 'public'
   AND table_name IN ('employees', 'departments', 'projects')
 ORDER BY table_name, ordinal_position;
-
+--tim
 
 -- =========================================
 -- PART 2: CREATING BASIC INDEXES
